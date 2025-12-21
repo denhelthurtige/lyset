@@ -3,6 +3,7 @@ import { EventButton } from "@/components/ui/event-button";
 import { Sparkles } from "lucide-react";
 
 const navItems = [
+  { label: "Galleri", id: "galleri" },
   { label: "Program", id: "program" },
   { label: "Billetter", id: "billetter" },
   { label: "Praktisk", id: "praktisk" },
