@@ -7,12 +7,16 @@ export function PracticalSection() {
   const emailReady = !CONFIG.generalContactEmail.includes("TODO");
 
   return (
-    <section id="praktisk" className="py-12">
+    <section id="praktisk" className="py-16">
       <div className="max-w-[1050px] mx-auto px-5">
-        <h2 className="text-3xl font-display font-bold">Praktisk info</h2>
-        <p className="mt-2 text-muted-foreground max-w-2xl">
-          Sted, tider og kort.
-        </p>
+        <div className="text-center mb-10">
+          <h2 className="text-2xl md:text-3xl font-display font-bold">Praktisk information</h2>
+          <p className="mt-3 text-muted-foreground max-w-xl mx-auto leading-relaxed">
+            Arrangementerne er åbne og familievenlige. Tilmelding til middagen foregår via Cohera, 
+            mens øvrige aktiviteter er åbne for alle. Vi glæder os til at samle Nørrebro – og byen 
+            – omkring lys, fællesskab og samvær under Ramadanen.
+          </p>
+        </div>
 
         <div className="mt-6 grid md:grid-cols-2 gap-5">
           <EventCard subtle>
