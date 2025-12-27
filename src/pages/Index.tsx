@@ -3,10 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
 import { EventsSection } from "@/components/EventsSection";
 import { GallerySection } from "@/components/GallerySection";
-import { ProgramSection } from "@/components/ProgramSection";
-import { TicketSection } from "@/components/TicketSection";
-import { PracticalSection } from "@/components/PracticalSection";
-import { FAQSection } from "@/components/FAQSection";
+import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -14,28 +11,10 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       <HeroSection />
-      
-      <div className="section-divider" />
       <AboutSection />
-      
-      <div className="section-divider" />
       <EventsSection />
-      
-      <div className="section-divider" />
       <GallerySection />
-      
-      <div className="section-divider" />
-      <ProgramSection />
-      
-      <div className="section-divider" />
-      <TicketSection />
-      
-      <div className="section-divider" />
-      <PracticalSection />
-      
-      <div className="section-divider" />
-      <FAQSection />
-      
+      <CTASection />
       <Footer />
     </div>
   );
