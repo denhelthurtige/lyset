@@ -34,15 +34,16 @@ export function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   return (
-    <section id="galleri" className="py-12">
+    <section id="galleri" className="py-16">
       <div className="max-w-[1050px] mx-auto px-5">
-        <div className="flex items-center gap-3 mb-2">
-          <Camera className="w-6 h-6 text-primary" />
-          <h2 className="text-3xl font-display font-bold">Sidste år</h2>
+        <div className="text-center mb-10">
+          <span className="text-2xl mb-3 block">📸</span>
+          <h2 className="text-2xl md:text-3xl font-display font-bold">Billeder fra Ramadanlys</h2>
+          <p className="mt-3 text-muted-foreground max-w-xl mx-auto leading-relaxed">
+            Billederne afspejler den varme, nærværende og inkluderende atmosfære, 
+            som Ramadanlys er skabt for.
+          </p>
         </div>
-        <p className="text-muted-foreground max-w-2xl mb-8">
-          Billeder fra Ramadanlys 2025 — en uforglemmelig dag med fællesskab, børnekor og iftar.
-        </p>
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">

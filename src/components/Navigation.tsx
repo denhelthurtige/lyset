@@ -3,11 +3,10 @@ import { EventButton } from "@/components/ui/event-button";
 import { Sparkles } from "lucide-react";
 
 const navItems = [
+  { label: "Om", id: "om" },
+  { label: "Arrangementer", id: "arrangementer" },
   { label: "Galleri", id: "galleri" },
-  { label: "Program", id: "program" },
-  { label: "Billetter", id: "billetter" },
   { label: "Praktisk", id: "praktisk" },
-  { label: "FAQ", id: "faq" },
 ];
 
 export function Navigation() {
