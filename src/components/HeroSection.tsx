@@ -15,13 +15,9 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto animate-fade-in">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-display tracking-wide leading-[1.1] text-foreground">
-          Lys. Fællesskab. Samvær.
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-display tracking-wide leading-[1.1] text-foreground">
+          Når lyset tændes, samles vi.
         </h1>
-        
-        <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-lg mx-auto leading-relaxed font-light">
-          Ramadanlys samler Nørrebro omkring Ramadanen.
-        </p>
       </div>
 
       {/* Scroll indicator */}
