@@ -13,10 +13,10 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/50 to-background" />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto animate-fade-in">
+      {/* Content - positioned lower to show background */}
+      <div className="absolute bottom-32 left-0 right-0 z-10 text-center px-6 max-w-3xl mx-auto animate-fade-in">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-display tracking-wide leading-[1.1] text-foreground">
-          Når lyset tændes, samles vi.
+          Lys, nærvær og fælles øjeblikke.
         </h1>
       </div>
 

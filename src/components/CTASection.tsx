@@ -12,7 +12,7 @@ export function CTASection() {
           rel="noreferrer"
           className="inline-block text-lg md:text-xl font-display tracking-wide text-primary border-b border-primary/40 pb-1 hover:border-primary transition-colors duration-300"
         >
-          Se events & tilmelding på Cohera
+          Se events og deltag
         </a>
       </div>
     </section>
