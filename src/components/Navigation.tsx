@@ -8,12 +8,19 @@ export function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-background/50">
       <div className="max-w-6xl mx-auto px-6 py-5">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
+          <a 
+            href="#" 
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="flex items-center gap-2 cursor-pointer"
+          >
             <Star className="w-5 h-5 text-primary fill-primary" />
             <span className="font-display text-xl tracking-wide text-foreground">
               Ramadanlys
             </span>
-          </div>
+          </a>
 
           <a
             href={coheraReady ? CONFIG.coheraLink : "https://coheraconnect.com"}
