@@ -2,6 +2,8 @@ import ramadanlys from "@/assets/events/ramadanlys.jpg";
 import ramadanmarked from "@/assets/events/ramadanmarked.png";
 import langbordsmiddag from "@/assets/events/langbordsmiddag.png";
 
+const COHERA_LINK = "https://coheraconnect.com/organization/ab65c34d-6db0-4f4f-8563-1c95d1ee59ba";
+
 const events = [
   {
     image: ramadanlys,
@@ -28,9 +30,12 @@ export function EventsSection() {
         {/* First two cards side by side */}
         <div className="grid md:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
           {events.slice(0, 2).map((event, idx) => (
-            <div 
-              key={idx} 
-              className="group relative aspect-[4/5] overflow-hidden rounded-2xl"
+            <a 
+              key={idx}
+              href={COHERA_LINK}
+              target="_blank"
+              rel="noreferrer"
+              className="group relative aspect-[4/5] overflow-hidden rounded-2xl cursor-pointer"
             >
               <img
                 src={event.image}
@@ -47,12 +52,17 @@ export function EventsSection() {
                   {event.subtitle}
                 </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
         
         {/* Large third card */}
-        <div className="group relative aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-2xl">
+        <a 
+          href={COHERA_LINK}
+          target="_blank"
+          rel="noreferrer"
+          className="group relative aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-2xl block cursor-pointer"
+        >
           <img
             src={events[2].image}
             alt={events[2].title}
@@ -68,7 +78,7 @@ export function EventsSection() {
               {events[2].subtitle}
             </p>
           </div>
-        </div>
+        </a>
       </div>
     </section>
   );
