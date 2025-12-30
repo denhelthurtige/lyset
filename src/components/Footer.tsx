@@ -12,7 +12,7 @@ export function Footer() {
           </a>
         </p>
         <p className="text-sm text-muted-foreground/50 tracking-wide">
-          © {new Date().getFullYear()} Ramadanlyset · CVR: 46135326 · Nørrebro, København
+          © {new Date().getFullYear()} Ramadanlyset · 46135326 · Nørrebro, København
         </p>
       </div>
     </footer>
