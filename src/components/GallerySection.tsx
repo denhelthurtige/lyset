@@ -14,6 +14,9 @@ export function GallerySection() {
   return (
     <section id="galleri" className="py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6">
+        <h2 className="text-2xl md:text-3xl font-display text-center mb-8 md:mb-12 text-foreground/90">
+          Lidt stemning fra sidste år
+        </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
           {galleryImages.map((image, idx) => (
             <div
