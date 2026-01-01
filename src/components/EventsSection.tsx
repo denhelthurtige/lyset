@@ -35,7 +35,7 @@ export function EventsSection() {
               href={COHERA_LINK}
               target="_blank"
               rel="noreferrer"
-              className="group relative aspect-[4/5] overflow-hidden rounded-2xl cursor-pointer border border-border/40"
+              className="group relative aspect-[4/5] overflow-hidden rounded-2xl cursor-pointer"
             >
               <img
                 src={event.image}
@@ -61,7 +61,7 @@ export function EventsSection() {
           href={COHERA_LINK}
           target="_blank"
           rel="noreferrer"
-          className="group relative aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-2xl block cursor-pointer border border-border/40"
+          className="group relative aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-2xl block cursor-pointer"
         >
           <img
             src={events[2].image}
