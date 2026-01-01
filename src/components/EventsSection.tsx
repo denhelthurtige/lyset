@@ -1,4 +1,4 @@
-import ramadanlys from "@/assets/events/ramadanlys.jpg";
+import ramadanlys from "@/assets/events/ramadanlys.png";
 import ramadanmarked from "@/assets/events/ramadanmarked.png";
 import langbordsmiddag from "@/assets/events/langbordsmiddag.png";
 
