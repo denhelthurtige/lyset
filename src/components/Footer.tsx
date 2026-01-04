@@ -1,4 +1,4 @@
-import { Facebook, Instagram } from "lucide-react";
+import { Facebook, Instagram, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -23,16 +23,14 @@ export function Footer() {
           >
             <Instagram size={24} />
           </a>
-        </div>
-        <p className="text-sm text-muted-foreground/70 tracking-wide">
-          Kontakt:{" "}
           <a 
-            href="mailto:info@ramadanlys.dk" 
-            className="hover:text-primary transition-colors"
+            href="mailto:info@ramadanlys.dk"
+            className="text-muted-foreground/70 hover:text-primary transition-colors"
+            aria-label="Email"
           >
-            info@ramadanlys.dk
+            <Mail size={24} />
           </a>
-        </p>
+        </div>
         <p className="text-sm text-muted-foreground/50 tracking-wide">
           © {new Date().getFullYear()} Ramadanlyset · 46135326 · Nørrebro, København
         </p>
