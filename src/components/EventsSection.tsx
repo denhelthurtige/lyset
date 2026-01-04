@@ -17,7 +17,7 @@ const events = [
   },
   {
     image: langbordsmiddag,
-    title: "Langbordsmiddag",
+    title: "Ramadan Langbordsmiddag",
     subtitle: "Ét bord. Mange mennesker.",
     large: true,
   },
