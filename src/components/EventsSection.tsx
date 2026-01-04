@@ -72,7 +72,7 @@ export function EventsSection() {
           
           <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10">
             <h3 className="text-3xl md:text-4xl font-display text-foreground tracking-wide">
-              {events[2].title}
+              Ramadan<br />Langbordsmiddag
             </h3>
             <p className="mt-2 text-muted-foreground font-light">
               {events[2].subtitle}
