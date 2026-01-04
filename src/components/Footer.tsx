@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6 text-center space-y-4">
         <div className="flex justify-center gap-6">
           <a 
-            href="https://facebook.com/ramadanlyset" 
+            href="https://www.facebook.com/profile.php?id=61585694591769" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground/70 hover:text-primary transition-colors"
@@ -15,7 +15,7 @@ export function Footer() {
             <Facebook size={24} />
           </a>
           <a 
-            href="https://instagram.com/ramadanlyset" 
+            href="https://www.instagram.com/ramadanlys/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground/70 hover:text-primary transition-colors"
