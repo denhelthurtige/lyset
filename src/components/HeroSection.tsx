@@ -16,7 +16,7 @@ export function HeroSection() {
       {/* Content - positioned lower to show background */}
       <div className="absolute bottom-32 left-0 right-0 z-10 text-center px-6 max-w-3xl mx-auto animate-fade-in">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-display tracking-wide leading-[1.1] text-foreground">
-          Lys, nærvær og fælles øjeblikke
+          lys, lys, lys
         </h1>
       </div>
 
