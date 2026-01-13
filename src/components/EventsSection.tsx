@@ -2,23 +2,24 @@ import ramadanlys from "@/assets/events/ramadanlys.png";
 import ramadanmarked from "@/assets/events/ramadanmarked.png";
 import langbordsmiddag from "@/assets/events/langbordsmiddag.png";
 
-const COHERA_LINK = "https://coheraconnect.com/organization/ab65c34d-6db0-4f4f-8563-1c95d1ee59ba";
-
 const events = [
   {
     image: ramadanlys,
     title: "Ramadanlys",
     subtitle: "Tænding af lyset. Ét fælles øjeblik.",
+    link: "https://www.facebook.com/events/1231745212165812",
   },
   {
     image: ramadanmarked,
     title: "Ramadanmarked",
     subtitle: "Liv, bevægelse og ramadanstemning.",
+    link: "https://www.facebook.com/events/1774526696567714",
   },
   {
     image: langbordsmiddag,
     title: "Ramadan Langbordsmiddag",
     subtitle: "Ét bord. Mange mennesker.",
+    link: "https://billetto.dk/e/ramadan-langbordsmiddag-billetter-1789248",
     large: true,
   },
 ];
@@ -32,7 +33,7 @@ export function EventsSection() {
           {events.slice(0, 2).map((event, idx) => (
             <a 
               key={idx}
-              href={COHERA_LINK}
+              href={event.link}
               target="_blank"
               rel="noreferrer"
               className="group relative aspect-[4/5] overflow-hidden rounded-2xl cursor-pointer"
@@ -58,7 +59,7 @@ export function EventsSection() {
         
         {/* Large third card */}
         <a 
-          href={COHERA_LINK}
+          href={events[2].link}
           target="_blank"
           rel="noreferrer"
           className="group relative aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-2xl block cursor-pointer"
