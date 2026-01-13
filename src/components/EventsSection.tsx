@@ -7,19 +7,19 @@ const events = [
     image: ramadanlys,
     title: "Ramadanlys",
     subtitle: "Tænding af lyset. Ét fælles øjeblik.",
-    link: "https://www.facebook.com/events/1231745212165812",
+    link: "https://www.facebook.com/people/Ramadanlys/61585694591769/",
   },
   {
     image: ramadanmarked,
     title: "Ramadanmarked",
     subtitle: "Liv, bevægelse og ramadanstemning.",
-    link: "https://www.facebook.com/events/1774526696567714",
+    link: "https://www.facebook.com/people/Ramadanlys/61585694591769/",
   },
   {
     image: langbordsmiddag,
     title: "Ramadan Langbordsmiddag",
     subtitle: "Ét bord. Mange mennesker.",
-    link: "https://billetto.dk/e/ramadan-langbordsmiddag-billetter-1789248",
+    link: "https://billetto.dk/e/ramadan-langbordsmiddag-billetter-1789248?bref=eyJzIjoib3JnYW5pc2VyIiwibSI6InNoYXJlIiwiYyI6Im1hbmFnZV92aXNpdCIsImNvIjoiMSIsInQiOjE3NjgzMjM5NDB9",
     large: true,
   },
 ];
