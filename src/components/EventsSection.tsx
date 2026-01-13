@@ -7,7 +7,7 @@ const events = [
     image: ramadanlys,
     title: "Ramadanlys",
     subtitle: "Tænding af lyset. Ét fælles øjeblik.",
-    link: "https://www.facebook.com/people/Ramadanlys/61585694591769/",
+    link: "https://www.facebook.com/events/1231745212165812",
   },
   {
     image: ramadanmarked,
