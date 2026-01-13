@@ -13,7 +13,7 @@ const events = [
     image: ramadanmarked,
     title: "Ramadanmarked",
     subtitle: "Liv, bevægelse og ramadanstemning.",
-    link: "https://www.facebook.com/people/Ramadanlys/61585694591769/",
+    link: "https://www.facebook.com/events/1774526696567714",
   },
   {
     image: langbordsmiddag,
