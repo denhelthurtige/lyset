@@ -26,7 +26,7 @@ export function Navigation() {
             href={coheraReady ? CONFIG.coheraLink : "https://coheraconnect.com"}
             target="_blank"
             rel="noreferrer"
-            className="px-4 py-2 text-sm font-medium bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-colors duration-300"
+            className="px-4 py-2 text-sm font-medium bg-pink-500 text-white rounded-full hover:bg-pink-600 transition-colors duration-300"
           >
             Tilmelding
           </a>
