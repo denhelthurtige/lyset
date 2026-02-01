@@ -1,6 +1,7 @@
 import ramadanlys from "@/assets/events/ramadanlys.png";
 import ramadanmarked from "@/assets/events/ramadanmarked.png";
 import langbordsmiddag from "@/assets/events/langbordsmiddag.png";
+import { CONFIG } from "@/config/event";
 
 const events = [
   {
@@ -14,6 +15,7 @@ const events = [
     title: "Ramadanmarked",
     subtitle: "Liv, bevægelse og ramadanstemning.",
     link: "https://www.facebook.com/events/1774526696567714",
+    standpladsLink: CONFIG.standpladsLink,
   },
   {
     image: langbordsmiddag,
@@ -31,19 +33,20 @@ export function EventsSection() {
         {/* First two cards side by side */}
         <div className="grid md:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
           {events.slice(0, 2).map((event, idx) => (
-            <a 
-              key={idx}
-              href={event.link}
-              target="_blank"
-              rel="noreferrer"
-              className="group relative aspect-[4/5] overflow-hidden rounded-2xl cursor-pointer"
-            >
-              <img
-                src={event.image}
-                alt={event.title}
-                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/95 via-background/20 to-transparent" />
+            <div key={idx} className="group relative aspect-[4/5] overflow-hidden rounded-2xl">
+              <a 
+                href={event.link}
+                target="_blank"
+                rel="noreferrer"
+                className="block w-full h-full cursor-pointer"
+              >
+                <img
+                  src={event.image}
+                  alt={event.title}
+                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/95 via-background/20 to-transparent" />
+              </a>
               
               <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
                 <h3 className="text-2xl md:text-3xl font-display text-foreground tracking-wide">
@@ -52,8 +55,18 @@ export function EventsSection() {
                 <p className="mt-2 text-muted-foreground font-light text-sm md:text-base">
                   {event.subtitle}
                 </p>
+                {event.standpladsLink && (
+                  <a
+                    href={event.standpladsLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-block mt-4 px-4 py-2 text-sm font-medium bg-pink-500 text-white rounded-full hover:bg-pink-600 transition-colors duration-300"
+                  >
+                    Køb standplads
+                  </a>
+                )}
               </div>
-            </a>
+            </div>
           ))}
         </div>
         

@@ -12,6 +12,7 @@ export const CONFIG = {
   dinnerPrice: "200 DKK / kuvert",
   dinnerMenu: ["Harira", "Tajin", "Roulade"],
   coheraLink: "https://billetto.dk/e/ramadan-langbordsmiddag-billetter-1789248",
+  standpladsLink: "https://billetto.dk/e/ramadan-marked-billetter-1856825?bref=eyJzIjoiYmlsbGV0dG8gYWR2ZXJ0aXNpbmciLCJtIjoiYmlsbGV0dG8iLCJjIjoic2hhcmUiLCJjbyI6IjUtZXAtREsiLCJ0IjoxNzY5Njk0MzE5fQ%3D%3D",
   generalContactEmail: "TODO_EMAIL",
   facebookEventLink: "TODO_FACEBOOK_EVENT_LINK",
   instagramLink: "TODO_INSTAGRAM_LINK",
