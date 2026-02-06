@@ -21,7 +21,8 @@ const events = [
     image: langbordsmiddag,
     title: "Ramadan Langbordsmiddag",
     subtitle: "Ét bord. Mange mennesker.",
-    link: "https://billetto.dk/e/ramadan-langbordsmiddag-billetter-1789248?bref=eyJzIjoib3JnYW5pc2VyIiwibSI6InNoYXJlIiwiYyI6Im1hbmFnZV92aXNpdCIsImNvIjoiMSIsInQiOjE3NjgzMjM5NDB9",
+    link: "https://www.facebook.com/events/2059407351271301/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+    billetLink: "https://billetto.dk/e/ramadan-langbordsmiddag-billetter-1789248?bref=eyJzIjoib3JnYW5pc2VyIiwibSI6InNoYXJlIiwiYyI6Im1hbmFnZV92aXNpdCIsImNvIjoiMSIsInQiOjE3NjgzMjM5NDB9",
     large: true,
   },
 ];
@@ -91,6 +92,17 @@ export function EventsSection() {
             <p className="mt-2 text-muted-foreground font-light">
               {events[2].subtitle}
             </p>
+            {events[2].billetLink && (
+              <a
+                href={events[2].billetLink}
+                target="_blank"
+                rel="noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="inline-block mt-4 px-4 py-2 text-sm font-medium bg-pink-500 text-white rounded-full hover:bg-pink-600 transition-colors duration-300"
+              >
+                Køb din billet her
+              </a>
+            )}
           </div>
         </a>
       </div>
